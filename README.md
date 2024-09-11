@@ -29,11 +29,16 @@ The Maintenance Management Application is a comprehensive full-stack web applica
 - **Batch Status Updates**: The application supports batch updates, allowing multiple jobs to be updated to a new status simultaneously, saving time and reducing the potential for errors.
 - **Job Archiving**: Completed or obsolete jobs can be archived, helping to keep the active job list clean and focused on current tasks.
 - **Status Filtering**: Users can filter jobs by their status (e.g., Submitted, In Progress, Completed), making it easier to manage and review tasks based on their current state.
+
 - **Toast Notifications**:
 
-• toast.success("Job added successfully!"): Notifies the user when a job is added.
+- toast.success("Job added successfully!"): Notifies the user when a job is added on the top right of the page.
 
-• toast.info("Job updated successfully!"): Notifies the user when a job is updated.
+![maintenance app](client/public/added.png)
+
+- toast.info("Job updated successfully!"): Notifies the user when a job is updated on the top right of the page.
+
+![maintenance app](client/public/updates.png)
 
 - **ToastContainer**: Added <ToastContainer /> to render and manage toast notifications.
 
